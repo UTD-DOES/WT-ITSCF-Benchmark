@@ -7,7 +7,7 @@ In the Simulink WT model, the generator stator is modeled based on the generator
 
 All scenarios run 80 seconds with default wind speed profile in the WT example. 3 phases' phase-to-phase current (in Ampere, A) and voltage (in Volt, V) signals are recorded at 4kHz frequency. 
 
-The electrical signal data can be found in ITSCF dataset folder. Both .mat and .csv file including all scenarios are provided with metadata. 76 .mat files associated with every scenario are zipped, where all signals are in time series format and separate metadata are provided. 
+The electrical signal data can be found in 76 WTG ITSCF mat folder. 76 .mat files associated with every scenario are included, where all signals are in time series format and separate metadata and ReadMe are provided. 
 
 Raw current and voltage signals together with first-level approximation coefficients in terms of 4 different wavelet functions are visualized in 6fig Animation.mp4.
 
