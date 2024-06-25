@@ -5,9 +5,13 @@ This repository contains a comprehensive dataset of 75 inter-turn short circuit 
 
 ## Simulation Details
 Model Specifications: The generator stator in the Simulink WT model is characterized by an equivalent impedance of R=0.0027 Ohm.
+
 Fault Definition: The stator winding is divided into healthy and faulty segments. The faults are defined by varying the faulty winding ratio p_s across values {0.05, 0.1, 0.2, 0.3, 0.5} , which indicates the extent of degradation. Additionally, the short circuit resistance R_s varies across {1,0.1,0.01,0.001,0.0001} Ohm to simulate different levels of insulation deterioration. 
+
 Scenario Generation: Considering ITSCFs in all three phases, a total of 75 ITSCF scenarios (5 faulty winding ratios × 5 short circuit resistances × 3 phases) are generated. Including a baseline scenario with no ITSCF, the dataset comprises 76 scenarios in total.
+
 Simulation Duration: Each scenario runs for 80 seconds using the default wind speed profile provided in the WT example.
+
 Data Recording: Phase-to-phase current (in Amperes, A) and voltage (in Volts, V) signals are recorded at a sampling frequency of 4 kHz. 
 
 ## Dataset Contents
